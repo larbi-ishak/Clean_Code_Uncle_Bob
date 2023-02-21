@@ -1,0 +1,18 @@
+When to refactor?
+don't refactor code that has been established for years and is not been modified
+
+don't refactor code that is far more than 6 months
+
+remember before factoring the rule: if it doesn't break then don't touch it
+your goal before refactoring is to keep the software running
+
+difficult or hard to understand don't touch it
+
+after refactoring run tests that you didn't broke the code
+
+Pair coding
+
+Real time code review with others
+
+(Robert C Martin) Uncle Bob martin rule
+always leave the code you're editing a little better than you found it

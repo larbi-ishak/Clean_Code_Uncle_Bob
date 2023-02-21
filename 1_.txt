@@ -1,0 +1,83 @@
+Anyone can write code a computer can understand, but professional developers write code *humans* can understand. Clean code is a reader-focused development style that produces software that's easy to write, read and maintain.
+*********************************************
+
+
+
+
+- not understanding your code after two weeks is a big failure
+- any fool can code a program that computer understand but good programmers -code what can humans understand
+- the boss wants a dirty fast code but the geek write a fast clean code
+- writing clean code can get you recommendation from you co-workers due to your clean code
+- the Foundation
+	- clean code , unified code 
+	- solid code
+	- dirty code , is hard to refactor or read
+
+- You're An Author Who Practices Writing
+- Humans Take 10x Times To Understand Your Code And Absolutely You Don't Want Them Struggling To Reading Your Code
+- Your Code Is A Book Chapters Are Classes And Paragraphs Are Methods
+- Suggested Books : Code complete2 , Clean Code, The Pragmatic Programer
+
+# 2- PRINCIPLES:
+There Are Three Principles :
+	- right Tool For The Job
+	- High Signal To Noise Ration (distractions)
+	- self Documented
+
+##  right tool for the job
+
+there is no tool useful for everything
+we become proud when we do a task without the right tool like we are creative but it's fake creativity
+the boundaries between technologies make confusing when choosing the tool example for this is you can add html from javascript or put it in a string or whatever but is it the right practice and you can implement your java script code in html script tag but is it the right practice
+that what we meant to say
+and the example we said also applies when it comes in styling with css (inline style /internal style / external style ) what to choose?
+so staying native and choosing the right tool has a lot of advantages :
+- code cached and loaded once
+- code colored with IDE
+- syntax checked
+- separated concerns
+- ability to reuse the code
+- ability of minifying and obfuscating
+
+advices : ✔️
+	- avoid using one language to write another language/formate via strings
+	- leverage libraries 
+	- one language per file
+
+
+
+
+Every technology is a Potential Evil
+
+## avoid adding noise to your code (signal to noise ration)
+
+every code should follow the TED rule :
+Terse(وجيز) 
+Expressive what the code does
+Do one specific thing
+there a lot of items add noise to your code
+
+when reading writing the code our brain is the compiler and  the brain can't hold more than 7 items at once so avoid using more than 7 variables in one method or class or ... always use the 7 items rule
+the mess builds and becomes huge quietly one by one and the noise(mess) will become so big that you won't be able to do even a simple task
+
+## DRY principle 
+don't repeat yourself
+copy paste are a common problem for developers you can avoid it by creating reusable functions and calling it when need
+
+duplicating and repeating issues are: 
+increase the noise 
+increase the line of codes
+increase maintenance problems (fewer lines fewer bugs)
+
+## Self documenting code
+
+Documenting your code makes the programmer's itent very clear
+documenting reuces the noise
+
+
+
+
+
+
+
+
